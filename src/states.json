@@ -1,10 +1,11 @@
 {
-  "type": "FeatureCollection",
-  "features": [
+  "message": "Handling GET request for /confidence",
+  "query": { "geography_category": "############" },
+  "data": [
     {
       "type": "Feature",
       "id": "01",
-      "properties": { "name": "Alabama", "avg_estimate": 94.65 },
+      "properties": { "name": "Alabama", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -49,7 +50,7 @@
     {
       "type": "Feature",
       "id": "02",
-      "properties": { "name": "Alaska", "avg_estimate": 26.4 },
+      "properties": { "name": "Alaska", "avg_estimate": 0 },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -1289,7 +1290,7 @@
     {
       "type": "Feature",
       "id": "04",
-      "properties": { "name": "Arizona", "avg_estimate": 57.05 },
+      "properties": { "name": "Arizona", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1333,7 +1334,7 @@
     {
       "type": "Feature",
       "id": "05",
-      "properties": { "name": "Arkansas", "avg_estimate": 56.43 },
+      "properties": { "name": "Arkansas", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1382,7 +1383,7 @@
     {
       "type": "Feature",
       "id": "06",
-      "properties": { "name": "California", "avg_estimate": 41.7 },
+      "properties": { "name": "California", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1487,7 +1488,7 @@
     {
       "type": "Feature",
       "id": "08",
-      "properties": { "name": "Colorado", "avg_estimate": 49.33 },
+      "properties": { "name": "Colorado", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1515,7 +1516,7 @@
     {
       "type": "Feature",
       "id": "09",
-      "properties": { "name": "Connecticut", "avg_estimate": 73.1 },
+      "properties": { "name": "Connecticut", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1543,7 +1544,7 @@
     {
       "type": "Feature",
       "id": "10",
-      "properties": { "name": "Delaware", "avg_estimate": 64.3 },
+      "properties": { "name": "Delaware", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1568,7 +1569,7 @@
     {
       "type": "Feature",
       "id": "11",
-      "properties": { "name": "District of Columbia", "avg_estimate": 10065 },
+      "properties": { "name": "District of Columbia", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1585,7 +1586,7 @@
     {
       "type": "Feature",
       "id": "12",
-      "properties": { "name": "Florida", "avg_estimate": 35.4 },
+      "properties": { "name": "Florida", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
