@@ -1676,7 +1676,7 @@
     {
       "type": "Feature",
       "id": "13",
-      "properties": { "name": "Georgia", "avg_estimate": 16.5 },
+      "properties": { "name": "Georgia", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1739,7 +1739,7 @@
     {
       "type": "Feature",
       "id": "15",
-      "properties": { "name": "Hawaii", "avg_estimate": 21.1 },
+      "properties": { "name": "Hawaii", "avg_estimate": 0 },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -1818,7 +1818,7 @@
     {
       "type": "Feature",
       "id": "16",
-      "properties": { "name": "Idaho", "avg_estimate": 19.15 },
+      "properties": { "name": "Idaho", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1896,7 +1896,7 @@
     {
       "type": "Feature",
       "id": "17",
-      "properties": { "name": "Illinois", "avg_estimate": 23.5 },
+      "properties": { "name": "Illinois", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1975,7 +1975,7 @@
     {
       "type": "Feature",
       "id": "18",
-      "properties": { "name": "Indiana", "avg_estimate": 18.7 },
+      "properties": { "name": "Indiana", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2033,7 +2033,7 @@
     {
       "type": "Feature",
       "id": "19",
-      "properties": { "name": "Iowa", "avg_estimate": 54.81 },
+      "properties": { "name": "Iowa", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2095,7 +2095,7 @@
     {
       "type": "Feature",
       "id": "20",
-      "properties": { "name": "Kansas", "avg_estimate": 35.09 },
+      "properties": { "name": "Kansas", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2120,7 +2120,7 @@
     {
       "type": "Feature",
       "id": "21",
-      "properties": { "name": "Kentucky", "avg_estimate": 11 },
+      "properties": { "name": "Kentucky", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2207,7 +2207,7 @@
     {
       "type": "Feature",
       "id": "22",
-      "properties": { "name": "Louisiana", "avg_estimate": 10 },
+      "properties": { "name": "Louisiana", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2295,7 +2295,7 @@
     {
       "type": "Feature",
       "id": "23",
-      "properties": { "name": "Maine", "avg_estimate": 43.04 },
+      "properties": { "name": "Maine", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2373,7 +2373,7 @@
     {
       "type": "Feature",
       "id": "24",
-      "properties": { "name": "Maryland", "avg_estimate": 59.3 },
+      "properties": { "name": "Maryland", "avg_estimate": 0 },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -2455,7 +2455,7 @@
     {
       "type": "Feature",
       "id": "25",
-      "properties": { "name": "Massachusetts", "avg_estimate": 84.2 },
+      "properties": { "name": "Massachusetts", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2502,7 +2502,7 @@
     {
       "type": "Feature",
       "id": "26",
-      "properties": { "name": "Michigan", "avg_estimate": 17.9 },
+      "properties": { "name": "Michigan", "avg_estimate": 0 },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -2680,7 +2680,7 @@
     {
       "type": "Feature",
       "id": "27",
-      "properties": { "name": "Minnesota", "avg_estimate": 67.14 },
+      "properties": { "name": "Minnesota", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2775,7 +2775,7 @@
     {
       "type": "Feature",
       "id": "28",
-      "properties": { "name": "Mississippi", "avg_estimate": 63.5 },
+      "properties": { "name": "Mississippi", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2833,7 +2833,7 @@
     {
       "type": "Feature",
       "id": "29",
-      "properties": { "name": "Missouri", "avg_estimate": 87.26 },
+      "properties": { "name": "Missouri", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2898,7 +2898,7 @@
     {
       "type": "Feature",
       "id": "30",
-      "properties": { "name": "Montana", "avg_estimate": 6.858 },
+      "properties": { "name": "Montana", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2962,7 +2962,7 @@
     {
       "type": "Feature",
       "id": "31",
-      "properties": { "name": "Nebraska", "avg_estimate": 23.97 },
+      "properties": { "name": "Nebraska", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3003,7 +3003,7 @@
     {
       "type": "Feature",
       "id": "32",
-      "properties": { "name": "Nevada", "avg_estimate": 24.8 },
+      "properties": { "name": "Nevada", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3036,7 +3036,7 @@
     {
       "type": "Feature",
       "id": "33",
-      "properties": { "name": "New Hampshire", "avg_estimate": 147 },
+      "properties": { "name": "New Hampshire", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3076,7 +3076,7 @@
     {
       "type": "Feature",
       "id": "34",
-      "properties": { "name": "New Jersey", "avg_estimate": 89 },
+      "properties": { "name": "New Jersey", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3120,7 +3120,7 @@
     {
       "type": "Feature",
       "id": "35",
-      "properties": { "name": "New Mexico", "avg_estimate": 17.16 },
+      "properties": { "name": "New Mexico", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3149,7 +3149,7 @@
     {
       "type": "Feature",
       "id": "36",
-      "properties": { "name": "New York", "avg_estimate": 412.3 },
+      "properties": { "name": "New York", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3229,7 +3229,7 @@
     {
       "type": "Feature",
       "id": "37",
-      "properties": { "name": "North Carolina", "avg_estimate": 98.2 },
+      "properties": { "name": "North Carolina", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3302,7 +3302,7 @@
     {
       "type": "Feature",
       "id": "38",
-      "properties": { "name": "North Dakota", "avg_estimate": 91.6 },
+      "properties": { "name": "North Dakota", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3330,7 +3330,7 @@
     {
       "type": "Feature",
       "id": "39",
-      "properties": { "name": "Ohio", "avg_estimate": 81.9 },
+      "properties": { "name": "Ohio", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3389,7 +3389,7 @@
     {
       "type": "Feature",
       "id": "40",
-      "properties": { "name": "Oklahoma", "avg_estimate": 55.22 },
+      "properties": { "name": "Oklahoma", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3446,7 +3446,7 @@
     {
       "type": "Feature",
       "id": "41",
-      "properties": { "name": "Oregon", "avg_estimate": 40.33 },
+      "properties": { "name": "Oregon", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3514,7 +3514,7 @@
     {
       "type": "Feature",
       "id": "42",
-      "properties": { "name": "Pennsylvania", "avg_estimate": 84.3 },
+      "properties": { "name": "Pennsylvania", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3559,7 +3559,7 @@
     {
       "type": "Feature",
       "id": "44",
-      "properties": { "name": "Rhode Island", "avg_estimate": 16.0 },
+      "properties": { "name": "Rhode Island", "avg_estimate": 0 },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -3592,7 +3592,7 @@
     {
       "type": "Feature",
       "id": "45",
-      "properties": { "name": "South Carolina", "avg_estimate": 55.4 },
+      "properties": { "name": "South Carolina", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3648,7 +3648,7 @@
     {
       "type": "Feature",
       "id": "46",
-      "properties": { "name": "South Dakota", "avg_estimate": 98.07 },
+      "properties": { "name": "South Dakota", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3689,7 +3689,7 @@
     {
       "type": "Feature",
       "id": "47",
-      "properties": { "name": "Tennessee", "avg_estimate": 88.08 },
+      "properties": { "name": "Tennessee", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3744,7 +3744,7 @@
     {
       "type": "Feature",
       "id": "48",
-      "properties": { "name": "Texas", "avg_estimate": 98.07 },
+      "properties": { "name": "Texas", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3908,7 +3908,7 @@
     {
       "type": "Feature",
       "id": "49",
-      "properties": { "name": "Utah", "avg_estimate": 34.3 },
+      "properties": { "name": "Utah", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3932,7 +3932,7 @@
     {
       "type": "Feature",
       "id": "50",
-      "properties": { "name": "Vermont", "avg_estimate": 67.73 },
+      "properties": { "name": "Vermont", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3972,7 +3972,7 @@
     {
       "type": "Feature",
       "id": "51",
-      "properties": { "name": "Virginia", "avg_estimate": 20.5 },
+      "properties": { "name": "Virginia", "avg_estimate": 0 },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -4074,7 +4074,7 @@
     {
       "type": "Feature",
       "id": "53",
-      "properties": { "name": "Washington", "avg_estimate": 10.6 },
+      "properties": { "name": "Washington", "avg_estimate": 0 },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -4168,7 +4168,7 @@
     {
       "type": "Feature",
       "id": "54",
-      "properties": { "name": "West Virginia", "avg_estimate": 77.06 },
+      "properties": { "name": "West Virginia", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -4245,7 +4245,7 @@
     {
       "type": "Feature",
       "id": "55",
-      "properties": { "name": "Wisconsin", "avg_estimate": 100 },
+      "properties": { "name": "Wisconsin", "avg_estimate": 0 },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
