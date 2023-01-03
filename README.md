@@ -1,8 +1,8 @@
-#**Interactive Map**
+# **Interactive Map**
 
 The application is divided into the frontend and the backend.
 
-##**Frontend**:
+## **Frontend**:
 
 Technology used: **React JS**
 
@@ -44,6 +44,7 @@ The React JS frontend takes input from the checkbox => adds the input to my API 
 
 ![6](https://user-images.githubusercontent.com/106341725/210358018-af0f0cb6-5610-464c-9b9a-5bbb3795855d.jpg)
 
-![6](https://user-images.githubusercontent.com/106341725/210358033-c07e9e7a-ac28-48f5-beb3-cc8832fda12b.jpg)
+![7](https://user-images.githubusercontent.com/106341725/210358237-ffb9133f-14a2-435c-aafa-ca5a87ef9ec4.jpg)
+
 
 
