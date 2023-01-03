@@ -28,7 +28,7 @@ I have used Node JS to create a server and my own API.
 • Then, it compares it with the local JSON (states.json) I have that has the coordinates of the states. Then, it returns the values from local JSON (states.json) filtering out the state not found and adding an item on called “avg_estimate” that holds the estimation values. “avg_estimate” will then help me to draw the heat colors of the states on the map. <br />
 
 I have deployed and hosted my backed on Heroku for easier access and fetching.
-It can be found on this link: https://natnael-nodejs-server.herokuapp.com/confidence?group_category=[PLACE YOUR SEARCH INPUT HERE]
+It can be found on this link: https://natnael-nodejs-server.herokuapp.com/confidence?group_category= [PLACE YOUR SEARCH INPUT HERE]
 
 ## **The General Logic**
 The React JS frontend takes input from the checkbox => adds the input to my API and fetches the data => used the fetched data to draw the map. It uses “geography” to filter which states to highlight, “geography.coordinate” to draw the polygon shapes of the states, and the “avg_estimate” number is converted to a color to show the intensity of the heat color map.
