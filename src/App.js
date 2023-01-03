@@ -63,8 +63,10 @@ function App() {
     });
   };
 
-  // my customed made API
-  const myAPI = "http://localhost:8080/confidence?group_category=" + search;
+  // my custom made API
+  const myAPI =
+    "https://natnael-nodejs-server.herokuapp.com/confidence?group_category=" +
+    search;
 
   //const to hold the fetched json
   const [post, setPost] = useState(states_sample);
