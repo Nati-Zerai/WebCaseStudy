@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+Interactive Map
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The application is divided into the frontend and the backend.
 
-## Available Scripts
+Frontend:
+Technology used: React JS
+First, I have created the checkboxes on the left side and draw the map in the right side of the page.
+I have made the map interactive. The map can respond to input from the checkboxes and mouse hovers.
+• Map used: React Leaflet with MapTier (online tool that provides map templates).
+• Map description: Used : React Leaflet – MapContainer as a container, React Leaflet – TileLayer to attach MapTier maps, React Leaflet – Polygon to draw the shapes of the states and counties.
+• To draw the polygon shapes of the states and counties, I have downloaded and save a JSON file that has shape coordinates of all states. The JSON (states.json) I used only has coordinates of the states, so for this project I am only focusing on the states. Besides, the data provided on the dataset was very messed up and had other different geographical names other that states and counties. For this project and based on JSON coordinates file I had, I have decided to filter out the dataset and work only with the states.
 
-In the project directory, you can run:
+Backend:
+Technology used: Node JS
+I have used Node JS to create a server and my own API.
+My API:
+• First, takes input of the Age and Race/Ethnicity and returns a JSON of [geography, estimation] from the dataset
+• Then, it compares it with the local JSON (states.json) I have that has the coordinates of the states. Then, it returns the values from local JSON (states.json) filtering out the state not found and adding an item on called “avg_estimate” that holds the estimation values. “avg_estimate” will then help me to draw the heat colors of the states on the map.
+I have deployed and hosted my backed on Heroku for easier access and fetching.
+It can be found on this link: https://natnael-nodejs-server.herokuapp.com/confidence?group_category=[PLACE YOUR SEARCH INPUT HERE]
 
-### `npm start`
+The General Logic
+The React JS frontend takes input from the checkbox => adds the input to my API and fetches the data => used the fetched data to draw the map. It uses “geography” to filter which states to highlight, “geography.coordinate” to draw the polygon shapes of the states, and the “avg_estimate” number is converted to a color to show the intensity of the heat color map.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Frontend Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Backend Screenshots

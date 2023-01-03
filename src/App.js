@@ -332,6 +332,7 @@ function App() {
             </div>
           </div>
         </div>
+        <p className="text-center text-md font-bold mt-10">@ Natnael Zerai</p>
       </div>
     </div>
   );
