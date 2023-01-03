@@ -55,15 +55,15 @@ The React JS frontend takes input from the checkbox => adds the input to my API 
 
 ## **Running the app**
 
-**git clone https://github.com/Nati-Zerai/WebCaseStudy.git**
-**npm install**
-**npm start**
+**git clone https://github.com/Nati-Zerai/WebCaseStudy.git** <br />
+**npm install** <br />
+**npm start** <br />
 
 *If you want to check the **Backend-server** of the application*
 
-**git clone https://github.com/Nati-Zerai/WebCaseStudy-Backend-Node.git**
-**npm install**
-**node server.js**
+**git clone https://github.com/Nati-Zerai/WebCaseStudy-Backend-Node.git** <br />
+**npm install** <br />
+**node server.js** <br />
 
 *However, no need to run the server because it is hosted on Heroku: https://natnael-nodejs-server.herokuapp.com/confidence?group_category= [PLACE YOUR SEARCH INPUT HERE]*
 
